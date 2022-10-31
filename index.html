@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guessing Game</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header>
+       
+    </header>
+
+    <main>
+        <div class="container-1">
+
+           <h1>Guessing Game</h1>
+
+           <h2 class="introquestion">Can you guess the number between 1 and <span id="rangeInfo">2</span> </h2>
+
+           <div class="playerInput">
+               <input type="number" name="playerInput" id="playerInput" >
+           </div>
+           <div class="button-box">
+              <input type="submit" value="GUESS" id="submitInput">
+           </div>
+           <div>
+               <p class="answer" id="answer"></p>
+               <p class="scoreInfo">Your score: &nbsp;<span id="score">0</span></p>
+           </div>
+           <div class="gameInfo">
+                <div class="userInfo">
+                  <p>User Name:  <h4 id="userNameResult"></h4></p> 
+                </div>
+
+                <div class="levelInfo">
+                    <p>Level: &nbsp;&nbsp; <h4 id="levelNum">1</h4></p> 
+                </div>
+           </div>
+        </div>
+    </main>
+
+    <footer>
+
+    </footer>
+
+
+    <script src="assets/js/guessing.js"></script>
+</body>
+</html>
