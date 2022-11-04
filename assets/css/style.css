@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: blueviolet;
+}
+
+.container-1{
+    background-color: white;
+    width: 85vw;
+    height: 90vh;
+    margin: auto;
+    
+}
+
+main h1{
+    text-align: center;
+    padding-top: 7vh ;
+    margin: 5vh;
+    font-size: 40px;
+}
+
+.introquestion{
+    text-align: center;
+    padding-top: 5vw;
+    font-size: 30px;
+}
+
+.button-box{
+    text-align: center;
+    padding: 10px;
+    margin-top: 1vh;
+}
+
+.button-box input{
+    padding: 12px 30px 12px 30px;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: blueviolet;
+    font-size: 20px;
+    box-shadow: 0 8px 16px 0 rgba (0,0,0,0.2),
+                0 6px 20px 0 rgba (0,0,0,0.19);
+    
+}
+ 
+#submitInput{
+    color: white;
+    font-size: 25px;
+}
+
+.gameInfo {
+    display: flex;
+    width: 90vw;
+    margin: auto;
+    align-items: center;
+    margin-top: 5vh;
+}
+
+.gameInfo div{
+    width: 45vw;
+
+}
+
+.levelInfo{
+    text-align: end;
+    padding-right: 10vw;
+}
+
+.userInfo{
+    display: flex;
+    padding-left: 5vw;
+    justify-content: start;
+    align-items: flex-start;
+    font-size: 25px;
+
+}
+
+.levelInfo{
+    display: flex;
+    justify-content: end;
+    align-items: flex-start;
+    font-size: 25px;
+}
+
+#userNameResult{
+    font-size: 25px;
+    padding-left: 7px;
+}
+
+.playerInput{
+    text-align: center;
+    margin-top:8vh ;
+    
+}
+
+.playerInput input{
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 70px;
+    height: 50px;
+    font-size: 50px;
+}
+
+#answer{
+    text-align: center;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.scoreInfo{
+    text-align: center;
+    font-size: 25px;
+}
+
+#feedback {
+    font-size: 25px;
+    margin: 0;
+}
+
+@media screen and (max-width:450px) {
+    .scoreInfo{
+        font-size: 20px;
+    }
+    
+    #feedback {
+        font-size: 20px;
+    } 
+
+    main h1{
+        padding-top: 5vh ;
+        margin: 3vh;
+        font-size: 35px;
+    }
+}
