@@ -1,4 +1,4 @@
-/* function getUserInfo() {
+function getUserInfo() {
     const userName = prompt('what is your Username');
     console.log(userName);
     let p = document.createElement('p');
@@ -9,7 +9,7 @@
 
 getUserInfo();
 
- */
+ 
 
 let rangeNum = 2
 let levelNumber = document.getElementById('levelNum').innerText;
